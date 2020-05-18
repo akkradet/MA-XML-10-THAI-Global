@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="auto_clean_size" />
-    <style name="auto_process_mode" />
-    <style name="cache_sort_type" />
-    <style name="installed_app_sort_type" />
-    <style name="large_file_sort_type" />
-    <style name="wechat_sort" />
-</resources>
