@@ -82,7 +82,7 @@
         <item quantity="other">%1$d คนจาก %2$s</item>
     </plurals>
     <plurals name="num_groups_in_account">
-        <item quantity="other">%d กลุ่ม</item>
+        <item quantity="other">%0$d กลุ่ม</item>
     </plurals>
     <plurals name="number_of_items_available">
         <item quantity="other">คงเหลือ %1$d รายการ</item>

@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">แชร์ทาง %s</string>
     <string name="abc_toolbar_collapse_description">ยุบ</string>
     <string name="search_menu_title">ค้นหา</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="add_alarm">เพิ่มการปลุก</string>
     <string name="add_clock">เพิ่มนาฬิกา</string>
     <string name="add_timezone_title">เพิ่มเขตเวลา</string>
@@ -314,9 +315,10 @@
     <string name="shutdown_alarm_enable_summary">เสียงปลุกจะดังหากตั้งไว้อย่างน้อย 10 นาทีหลังจากที่คุณปิดเครื่อง</string>
     <string name="shutdown_alarm_title">การปิดเสียงปลุก</string>
     <string name="silent_alarm_summary">ปิดเสียง</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">ปิดครั้งเดียวเวลา %s</string>
     <string name="sleep_analysis">สถิติ</string>
-    <string name="sleep_date_provider_text">ข้อมูลการนอนหลับจัดทำโดย Mi Health</string>
+    <string name="sleep_date_provider_text">ข้อมูลการนอนหลับจัดทำโดย Xiaomi Health</string>
     <string name="sleep_duration">"ระยะเวลาการนอนหลับ: "</string>
     <string name="sleep_duration_avg_text_diff">ระยะเวลาการนอนหลับเฉลี่ย (%1$s-%2$s)</string>
     <string name="sleep_duration_desc">นอนไป %1$s %2$s</string>
@@ -331,8 +333,8 @@
     <string name="sleep_notification_title">ถึงเวลาเข้านอนแล้ว</string>
     <string name="sleep_record">ติดตามการนอนหลับ</string>
     <string name="sleep_record_desc">เปิดเพื่อเริ่มการบันทึกข้อมูลการนอนหลับ</string>
-    <string name="sleep_record_desc_detailed">ฟังก์ชั่นการติดตามการนอนหลับนั้นมาจาก Mi Health เมื่อเปิดใช้งานแล้ว Mi Health จะบันทึกการนอนหลับของคุณโดยอัตโนมัติตามการใช้งานโทรศัพท์สถิติกิจกรรมรวมถึงการนอนหลับและเวลาตื่นที่คุณตั้งค่า แสดงสถิติในรูปแบบของแผนภูมิ หากต้องการติดตามการนอนหลับที่แม่นยำยิ่งขึ้นอนุญาตให้ Mi Health ทำการเริ่มอัตโนมัติ ข้อมูลที่เกี่ยวข้องทั้งหมดจะถูกเก็บไว้ในอุปกรณ์ของคุณซึ่งช่วยให้คุณจัดการได้อย่างง่ายดาย</string>
-    <string name="sleep_record_no_data">สถิติของคุณจะปรากฏที่นี่หลังจาก Mi Health วิเคราะห์ข้อมูลได้เพียงพอ</string>
+    <string name="sleep_record_desc_detailed">ฟังก์ชั่นการติดตามการนอนหลับนั้นมาจาก Xiaomi Health เมื่อเปิดใช้งานแล้ว Xiaomi Health จะบันทึกการนอนหลับของคุณโดยอัตโนมัติตามการใช้งานโทรศัพท์สถิติกิจกรรมรวมถึงการนอนหลับและเวลาตื่นที่คุณตั้งค่า แสดงสถิติในรูปแบบของแผนภูมิ หากต้องการติดตามการนอนหลับที่แม่นยำยิ่งขึ้นอนุญาตให้ Xiaomi Health ทำการเริ่มอัตโนมัติ ข้อมูลที่เกี่ยวข้องทั้งหมดจะถูกเก็บไว้ในอุปกรณ์ของคุณซึ่งช่วยให้คุณจัดการได้อย่างง่ายดาย</string>
+    <string name="sleep_record_no_data">สถิติของคุณจะปรากฏที่นี่หลังจาก Xiaomi Health วิเคราะห์ข้อมูลได้เพียงพอ</string>
     <string name="sleep_remind">เตือนความจำเวลานอน</string>
     <string name="sleep_time">เข้านอน</string>
     <string name="sleep_wake_time">%1$s-%2$s</string>
@@ -357,6 +359,7 @@
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
     <string name="stopwatch_lap_empty_text">รอบแรก</string>
     <string name="stopwatch_title">นาฬิกาจับเวลา</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_purpose">การสร้างการเตือนวันทำงานและการตั้งค่าเสียงเรียกเข้าที่กำหนดเอง</string>
     <string name="system_time_setting">การตั้งค่า</string>
     <string name="system_time_settings_category_title">การตั้งค่าเวลา</string>
@@ -414,8 +417,8 @@
     <string name="turn_off_this_repeat_alarm">ปิดการปลุกซ้ำนี้ตลอดไป</string>
     <string name="upcoming_alarm">การปลุกครั้งต่อไป: %s</string>
     <string name="upcoming_alarm_hint">คุณสามารถปิดการปลุกนี้ได้ทันที</string>
-    <string name="update_health_app">อัปเดต Mi Health</string>
-    <string name="update_health_app_desc">ฟังก์ชั่นการติดตามการนอนหลับนั้นมาจาก Mi Health โปรดอัปเดต Mi Health เป็นเวอร์ชันล่าสุดเพื่อเข้าถึงคุณลักษณะที่เกี่ยวข้อง</string>
+    <string name="update_health_app">อัปเดต Xiaomi Health</string>
+    <string name="update_health_app_desc">ฟังก์ชั่นการติดตามการนอนหลับนั้นมาจาก Xiaomi Health โปรดอัปเดต Xiaomi Health เป็นเวอร์ชันล่าสุดเพื่อเข้าถึงคุณลักษณะที่เกี่ยวข้อง</string>
     <string name="update_it">อัปเดต</string>
     <string name="update_notification_info">กำลังอัปเดตข้อมูลในพื้นหลัง…</string>
     <string name="usage_start">เริ่ม</string>
@@ -443,4 +446,19 @@
     <string name="worldcolock_timezone_date">dd MMM</string>
     <string name="worldcolock_timezone_gap">%s ชม.</string>
     <string name="worldcolock_timezone_local">เหมือนกับเวลาท้องถิ่น</string>
+    <string name="add_common_timer">เพิ่มตัวนับถอยหลัง</string>
+    <string name="add_timer">เวลาที่ใช้บ่อย</string>
+    <string name="already_exist">ตัวนับถอยหลังนี้มีอยู่แล้ว</string>
+    <string name="city_time_contrast_desc">แตะเพื่อเปรียบเทียบเวลาในเมืองต่างๆ</string>
+    <string name="common_timer_selector">เลือกตัวนับถอยหลัง</string>
+    <string name="current_stopwatch_time">เวลาปัจจุบัน</string>
+    <string name="reach_upper_limit">ไม่สามารถเพิ่มตัวนับถอยหลังเพิ่มเติมได้</string>
+    <string name="sleep_analysis_chart_date_format">dd/MM</string>
+    <string name="system_permission_agree_desc">อนุญาตให้แอปนี้เชื่อมต่ออินเทอร์เน็ตเพื่อเข้าถึงคุณสมบัติทั้งหมดได้</string>
+    <string name="system_permission_main_purpose">ดูเวลา ตั้งค่าการเตือนและตัวจับเวลา โดยใช้นาฬิกาจับเวลา</string>
+    <string name="timer_item_delete">ลบ</string>
+    <string name="white_noise_selector">เลือกเสียง</string>
+    <string name="worldclock_local_time">เวลาท้องถิ่น</string>
+    <string name="worldclock_second_time">เวลาใน %s</string>
+    <string name="worldcolock_time_date">dd/MM/yyyy</string>
 </resources>

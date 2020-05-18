@@ -23,7 +23,7 @@
     <string name="autofill">กรอกอัตโนมัติ</string>
     <string name="autofill_save_message">อนุญาตให้ MIUI บันทึกบัญชีและรหัสผ่านของคุณหรือไม่?</string>
     <string name="autofill_save_ok">อนุญาต</string>
-    <string name="autofill_save_sub_message">คุณจะสามารถจัดการรหัสผ่านที่บันทึกไว้ได้ใน การตั้งค่า > รหัสผ่านและความปลอดภัย > %s</string>
+    <string name="autofill_save_sub_message">คุณจะสามารถจัดการรหัสผ่านที่บันทึกไว้ได้ใน การตั้งค่า > รหัสผ่าน &amp; ความปลอดภัย > %s</string>
     <string name="autofill_save_title">บันทึกรหัสผ่านโดยอัตโนมัติ</string>
     <string name="autofill_service_name">จัดการรหัสผ่าน</string>
     <string name="btn_cancel">ยกเลิก </string>
@@ -47,10 +47,9 @@
     <string name="content_description_web_url">เรียกดู</string>
     <string name="copy">คัดลอก</string>
     <string name="cut">ตัด</string>
-    <string name="data_usage_context">If Wi-Fi is not turned on, your device will connect to a mobile network, which may result in additional charges depending on your payment plan.Thank you!</string>
     <string name="default_device_name">อุปกรณ์ไม่รู้จัก</string>
     <string name="default_name">ค่าเริ่มต้น</string>
-    <string name="description_title">โหมดปิดเสียง</string>
+    <string name="description_title">โหมดเงียบ</string>
     <string name="device_name_with_ellipsize">%1$s…</string>
     <string name="device_type_pc">คอมพิวเตอร์</string>
     <string name="eighthours">8 ชั่วโมง</string>
@@ -62,7 +61,7 @@
     <string name="file_cannot_print">ไม่สามารถพิมพ์รายการนี้ได้</string>
     <string name="file_cannot_screen_throw">ไม่สามารถฉายรายการนี้ได้</string>
     <string name="file_sending">กำลังโอนไฟล์…</string>
-    <string name="first_back_long_press_message">ในการตั้งค่าแบบกำหนดเองและกดปุ่มลัดค้างไว้ ไปที่ เมนูการตั้งค่า > การตั้งค่าเพิ่มเติม > ปุ่ม</string>
+    <string name="first_back_long_press_message">ในการตั้งค่าแบบกำหนดเอง &amp; กดปุ่มลัดค้างไว้ ไปที่ เมนูการตั้งค่า > การตั้งค่าเพิ่มเติม > ปุ่ม</string>
     <string name="flip_screen_camera_tip">หมุนกลับอุปกรณ์เพื่อใช้กล้อง</string>
     <string name="fm_record_smaple_prefix_miui">บันทึกวิทยุ FM</string>
     <string name="force_exit_message">บังคับปิด %1$s</string>
@@ -83,6 +82,8 @@
     <string name="handy_mode_enter_dlg_title">เข้าสู่โหมดถนัดมือ</string>
     <string name="handy_mode_summary">ออกจากโหมดนี้ได้โดยแตะบริเวณที่ว่างขอบจอ</string>
     <string name="handy_mode_title">โหมดถนัดมือ</string>
+    <string name="help">ดูความช่วยเหลือ</string>
+    <string name="help_content">หากคุณไม่พบอุปกรณ์ที่ต้องการ ให้ขอให้บุคคลอื่นเปิด Mi แชร์</string>
     <string name="ignore_home_when_fingerprint_enrolling_msg">วางนิ้วของคุณลงบนปุ่มโฮม</string>
     <string name="input_method_clipboard_tips">รายการที่คัดลอกจะถูกลบออกจากคลิปบอร์ดหลังจาก 48 ชั่วโมง</string>
     <string name="input_method_edit_phrase_text">เพิ่มคำที่ถูกใช้บ่อย</string>
@@ -112,7 +113,7 @@
     <string name="miui_screen_ratio_hint">แจ้งอัตราหน้าจอ</string>
     <string name="miui_screen_ratio_hint_dont_show_again">ไม่ต้องแสดงอีก</string>
     <string name="miui_screen_ratio_hint_go_to_settings">ไปที่เมนูการตั้งค่า</string>
-    <string name="miui_screen_ratio_hint_message">แอปนี้ได้รับอนุญาตให้ทำงานในโหมดเต็มจอ ซึ่งอาจทำให้ไม่สามารถแสดงผลได้ไม่ถูกต้อง คุณสามารถเปลี่ยนแปลงได้ในการตั้งค่า > การแสดงผลแบบเต็มจอ</string>
+    <string name="miui_screen_ratio_hint_message">แอปนี้ได้รับอนุญาตให้ทำงานในโหมดเต็มหน้าจอ ซึ่งอาจทำให้ไม่สามารถแสดงผลได้ไม่ถูกต้อง คุณสามารถเปลี่ยนแปลงได้ในการตั้งค่า > การแสดงผลแบบเต็มจอ</string>
     <string name="miui_screen_ratio_hint_ok">ตกลง</string>
     <string name="miui_upgrading_notification_title">ระบบกำลังโหลด คุณลักษณะบางอย่างอาจไม่สามารถใช้งานได้</string>
     <string name="miui_warning_button_cancel">ยกเลิก </string>
@@ -198,7 +199,7 @@
     <string name="set_password_title">ตั้งรหัสผ่าน</string>
     <string name="shutdown_confirm_title">ปิดเครื่องตอนนี้?</string>
     <string name="shutdown_progress">กำลังปิดเครื่อง…</string>
-    <string name="silence_mode">โหมดปิดเสียง</string>
+    <string name="silence_mode">โหมดเงียบ</string>
     <string name="sim_added_reboot_confirm">รีบูต</string>
     <string name="sim_added_reboot_title">การเปิดใช้งานซิมการ์ดจะเริ่มหลังจากที่คุณรีบูตเครื่อง</string>
     <string name="sim_lock_non_ais_msg">"ซิมการ์ดไม่รองรับการทำงานในทุกฟังก์ชั่น
@@ -208,7 +209,6 @@
 ติดต่อศูนย์บริการของ Xiaomi หรือร้านค้าที่
 จำหน่ายสินค้าให้กับท่าน"</string>
     <string name="sim_lock_now_ais_title">ซิม%1$d</string>
-    <string name="slatoast">Using mobile data to boost speed, may consume mobile data</string>
     <string name="slavewifi">Wi-Fi คู่</string>
     <string name="slavewifi_disconnect">ตัดการเชื่อมต่อ</string>
     <string name="slavewifi_notification_title">ใช้ Wi-Fi คู่</string>

@@ -70,6 +70,9 @@
     <string name="mi_band_vibrate_sms">สั่นเมื่อได้รับข้อความ SMS</string>
     <string name="mi_band_vibrate_sms_in_contacts">ข้อความที่ส่งโดยผู้ที่อยู่ในรายชื่อติดต่อ</string>
     <string name="mi_band_vibrate_sms_no_contacts">ข้อความที่ส่งจากเลขหมายที่ไม่รู้จัก</string>
+    <string name="mi_home_device_find">Discover devices</string>
+    <string name="mi_home_device_ignore">Ignore</string>
+    <string name="mi_home_device_start_binding">Pair now</string>
     <string name="mi_key_alert_dialog_message">แตะปุ่มตกลงเพื่อปิดเสียงปลุก</string>
     <string name="mi_key_alert_dialog_title">เสียงปลุก Mi Key</string>
     <string name="mi_key_find_mikey">ค้นหา Mi Key</string>
@@ -79,6 +82,15 @@
     <string name="mi_key_summary_open_camera">กดที่ Mi Key สองครั้งติดกันเพื่อเปิดกล้องถ่ายรูป</string>
     <string name="mi_key_summary_take_photo">กด Mi Key หนึ่งครั้งเพื่อถ่ายภาพ</string>
     <string name="mi_key_take_photo">ถ่ายภาพ</string>
+    <string name="mihome_app_download">Install now</string>
+    <string name="mihome_app_update">Update now</string>
+    <string name="mihome_download_tips">ติดตั้งแอป Mi Home ลงชื่อเข้าใช้และถือโทรศัพท์ไว้ใกล้กับอุปกรณ์</string>
+    <string name="mihome_download_title">ติดตั้ง Mi Home</string>
+    <string name="mihome_ignore">Cancel</string>
+    <string name="mihome_ignore_tips">หากคุณไม่สนใจอุปกรณ์นี้ คุณจะต้องเพิ่มในแอป Mi Home ด้วยตนเอง</string>
+    <string name="mihome_ignore_title">Ignore this device?</string>
+    <string name="mihome_update_tips">อัปเดตแอป Mi Home ลงชื่อเข้าใช้และถือโทรศัพท์ไว้ใกล้กับอุปกรณ์</string>
+    <string name="mihome_update_title">อัปเดต Mi Home</string>
     <string name="not_set">ไม่ได้ตั้งค่า</string>
     <string name="notify_device_lose_connection_text">แตะเพื่อเลิกจับคู่ %1$s</string>
     <string name="notify_device_lose_connection_title">ขาดการเชื่อมต่อกับ %1$s</string>

@@ -518,7 +518,7 @@
     <string name="error_no_cta_permission_tip">การเข้าถึงเครือข่ายถูกจำกัด</string>
     <string name="error_no_network_action">การตั้งค่าเครือข่าย</string>
     <string name="error_no_network_msg">ตรวจสอบให้แน่ใจว่าอุปกรณ์ของคุณเปิดการเชื่อมต่อกับ Wi-Fi หรือข้อมูลมือถืออยู่</string>
-    <string name="error_no_network_tip">ไม่สามารถเชื่อมต่อเครือข่ายได้</string>
+    <string name="error_no_network_tip">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
     <string name="error_no_wifi_action">ใช้งานเครือข่ายข้อมูลมือถือ</string>
     <string name="error_no_wifi_msg">อุปกรณ์ของคุณไม่ได้เชื่อมต่อ Wi-Fi การใช้ข้อมูลมือถือคุณอาจจะต้องจ่ายค่าบริการเพิ่มเติม</string>
     <string name="error_no_wifi_tip">ไม่สามารถเชื่อมต่อ Wi-Fi ได้</string>
@@ -543,7 +543,7 @@
     <string name="error_title">ไม่สามารถซิงค์ได้</string>
     <string name="error_unauthorized">ยุติการซิงค์เนื่องจากการเข้าระบบผิดเกินจำนวนครั้งที่กำหนด</string>
     <string name="error_unknown_action">ข้อเสนอแนะ</string>
-    <string name="error_unknown_host">ไม่พบเครือข่าย กรุณาตรวจสอบเครือข่ายแล้วลองอีกครั้ง</string>
+    <string name="error_unknown_host">ไม่สามารถเชื่อมต่อกับเครือข่ายได้ กรุณาตรวจสอบเครือข่ายแล้วลองอีกครั้ง</string>
     <string name="error_unknown_msg">เกิดข้อผิดพลาด ส่งข้อเสนอแนะของคุณ</string>
     <string name="error_unknown_tip">เกิดข้อผิดพลาด</string>
     <string name="evening">PM</string>
@@ -585,6 +585,7 @@
     <string name="face_name_edit">แก้ไข</string>
     <string name="face_name_input">ป้อนชื่อ</string>
     <string name="face_recommend">ข้อเสนอแนะ</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">ดำเนินการไม่เสร็จสิ้น</string>
     <string name="fail_to_pick_email">ที่อยู่อีเมลไม่ถูกต้อง</string>
     <string name="fail_to_sync_album">ไม่สามารถซิงค์อัลบั้ม ตรวจสอบการเชื่อมต่อเครือข่ายแล้วลองอีกครั้ง</string>
@@ -595,6 +596,7 @@
     <string name="feature_guidance_photo_effects">"เอฟเฟ็กต์​ภาพถ่ายใหม่
 พร้อมใช้งาน"</string>
     <string name="feature_guidance_video_editor_smart_effects">เอฟเฟ็กต์​ใหม่พร้อมใช้งาน</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="file_cannot_print">ไม่สามารถพิมพ์รายการนี้ได้</string>
     <string name="file_cannot_screen_throw">ไม่สามารถฉายรายการนี้ได้</string>
     <string name="file_sending">กำลังโอนไฟล์…</string>
@@ -726,6 +728,7 @@
     <string name="gif_tip">ไฟล์ GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">ตั้งค่า</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"คลังภาพต้องการเข้าถึง 
 %s
  เพื่อให้ทำงานได้ตามปกติ แตะ \"ตั้งค่า\" เพื่อไปยังการอนุญาต"</string>
@@ -897,6 +900,12 @@
     <string name="movie_audio_dream">ความฝัน</string>
     <string name="movie_audio_electronics">อิเล็กทรอ</string>
     <string name="movie_audio_none">ไม่มี</string>
+    <string name="movie_audio_point1">นีออน</string>
+    <string name="movie_audio_point2">พระอาทิตย์ตก</string>
+    <string name="movie_audio_point3">หน่วยความจำ</string>
+    <string name="movie_audio_point4">กลางฤดูร้อน</string>
+    <string name="movie_audio_point5">คลื่น</string>
+    <string name="movie_audio_point6">งานรื่นเริง</string>
     <string name="movie_audio_quiet">เซน</string>
     <string name="movie_audio_summertime">ซัมเมอร์</string>
     <string name="movie_audio_vitality">แรง</string>
@@ -929,6 +938,12 @@
     <string name="movie_tab_music">เพลง</string>
     <string name="movie_tab_template">แบบเริ่มต้น</string>
     <string name="movie_template_baby">คิวตี้</string>
+    <string name="movie_template_cool">ไฟ</string>
+    <string name="movie_template_cool2">จังหวะ</string>
+    <string name="movie_template_cool3">คลื่น</string>
+    <string name="movie_template_dull">เรื่องราว</string>
+    <string name="movie_template_dull2">เวลา</string>
+    <string name="movie_template_dull3">บิวตี้</string>
     <string name="movie_template_food">ฟู้ดดี้</string>
     <string name="movie_template_new_year">ปีใหม่</string>
     <string name="movie_template_normal">เมโลดี้</string>
@@ -947,7 +962,7 @@
     <string name="need_to_turn_on_sync">เปิดใช้การซิงค์กับคลาวด์</string>
     <string name="need_to_turn_on_sync_first">เปิดใช้การซิงค์กับคลาวด์ก่อน</string>
     <string name="need_to_turn_on_wlan">เชื่อมต่อกับ Wi-Fi ก่อน</string>
-    <string name="network_connected_rescan">เชื่อมต่อเครือข่ายไม่ได้</string>
+    <string name="network_connected_rescan">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
     <string name="new_album_invalid_char">ชื่อต้องไม่สามารถประกอบด้วย \"%s\" ป้อนตัวอักษรหรือหมายเลข</string>
     <string name="new_album_invalid_name">\"%s\" เป็นอัลบั้มระบบ กรุณาแก้ไขชื่อใหม่</string>
     <string name="new_album_invalid_prefix">อย่าใส่ \".\" หรือ \"_\" ขึ้นต้นชื่ออัลบั้ม</string>
@@ -1031,6 +1046,7 @@
     <string name="people_mark_mode_title_no_mark_name">เลือกสักคน</string>
     <string name="people_page_label">บุคคล</string>
     <string name="people_page_unname">ไม่มีชื่อ</string>
+    <string name="percent_sign">%</string>
     <string name="permission_contacts_desc">สำหรับการกำหนดรายชื่อให้กับคนในรูปถ่าย</string>
     <string name="permission_contacts_name">รายชื่อ</string>
     <string name="permission_optional_category">สิทธิ์เพิ่มเติม</string>
@@ -1240,8 +1256,13 @@
     <string name="screen_doodle_talkback_size">ความกว้างของลายเส้น</string>
     <string name="screen_editor_btn_delete">ลบ</string>
     <string name="screen_editor_btn_save">บันทึก</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
     <string name="screen_editor_delete_dialog_msg">ลบภาพหน้าจอนี้หรือไม่?</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">เสร็จสิ้น</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">ยกเลิก </string>
     <string name="screen_save_dialog_btn_delete">ลบภาพหน้าจอ</string>
     <string name="screen_save_dialog_btn_save">บันทึกไปยังคลังภาพ</string>
@@ -1250,7 +1271,7 @@
     <string name="search_backup_sub_title">เปิดใช้งานค้นหารูปภาพเพิ่มเติม</string>
     <string name="search_backup_title">ซิงค์กับคลาวด์</string>
     <string name="search_clear_histories">ล้าง</string>
-    <string name="search_connection_error">ไม่สามารถเชื่อมต่อเครือข่ายได้</string>
+    <string name="search_connection_error">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
     <string name="search_connection_error_and_set">แตะเพื่อตรวจสอบการตั้งค่าเครือข่าย</string>
     <string name="search_empty_title">ค้นหาภาพถ่ายด้วยบุคคล สถานที่ และวัตถุในแกลเลอรี่ของคุณ</string>
     <string name="search_error">เกิดข้อผิดพลาด</string>
@@ -1300,6 +1321,9 @@
     <string name="search_title_recommend">แนะนำ</string>
     <string name="search_title_suggestion">ข้อเสนอแนะ</string>
     <string name="search_title_tag">สิ่งของ</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">กำลังมองหาโปรเจคเตอร์…</string>
     <string name="secret_album_card_description">ที่ที่ดีที่สุดสำหรับความลับทั้งหมดของคุณ</string>
     <string name="secret_album_card_title">เปิดอัลบั้มที่ซ่อนไว้</string>

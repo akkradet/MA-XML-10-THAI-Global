@@ -63,4 +63,13 @@
     <plurals name="timer_message_second">
         <item quantity="other">%1$d วินาที</item>
     </plurals>
+    <plurals name="minute_text">
+        <item quantity="other">" นาที"</item>
+    </plurals>
+    <plurals name="worldcolock_timezone_gap_fast">
+        <item quantity="other">เร็วกว่า %s ชม.</item>
+    </plurals>
+    <plurals name="worldcolock_timezone_gap_slow">
+        <item quantity="other">ช้ากว่า %s ชม.</item>
+    </plurals>
 </resources>

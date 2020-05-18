@@ -206,5 +206,4 @@
     <string name="wait_prompt_str">"ส่งสัญญาณโทนเสียงนี้?
 "</string>
     <string name="waiting_close_airplane_mode">รอสักครู่…</string>
-    <string name="wifi_call">โทร VoWifi</string>
 </resources>
