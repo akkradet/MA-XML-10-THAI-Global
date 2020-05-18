@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="activities_title" />
+    <style name="baby_sexy" />
+    <style name="backup_automatically_key_words" />
+    <style name="last_weekend_title" />
+    <style name="menu_copy_or_move" />
+    <style name="month" />
+    <style name="owner_relation" />
+    <style name="parties_title" />
+    <style name="relation_with_me" />
+    <style name="season" />
+    <style name="sharer_relation_addressive" />
+    <style name="sports_title" />
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="emailAddressTypes" />
+    <style name="imProtocols" />
+    <style name="organizationTypes" />
+    <style name="phoneTypes" />
+    <style name="postalAddressTypes" />
+    <array name="face_acquired_vendor" />
+    <array name="face_error_vendor" />
+    <array name="fingerprint_acquired_vendor" />
+    <array name="fingerprint_error_vendor" />
+    <style name="imAddressTypes" />
+    <style name="network_switch_type_name" />
+    <style name="wfcOperatorErrorAlertMessages" />
+    <style name="wfcOperatorErrorNotificationMessages" />
+</resources>

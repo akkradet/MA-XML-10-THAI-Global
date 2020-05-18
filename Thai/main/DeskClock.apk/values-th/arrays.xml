@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="alarm_in_furture" />
+    <style name="alarm_repeat_type" />
+    <style name="alarm_repeat_type_no_workdays" />
+    <style name="alarm_set" />
+    <style name="aqi_value" />
+    <style name="auto_silence_entries" />
+    <style name="bedtime_guide_repeat_type" />
+    <style name="bedtime_repeat_entries" />
+    <style name="cities_names_miui" />
+    <style name="clock_bg_setting_entries" />
+    <style name="countries_names_miui" />
+    <style name="days_of_week" />
+    <style name="notification_adv_time_entries" />
+    <style name="snooze_duration_entries" />
+    <style name="snooze_duration_values" />
+    <style name="time" />
+    <style name="timer_duration" />
+    <style name="volume_button_setting_entries" />
+    <style name="volume_button_setting_values" />
+</resources>

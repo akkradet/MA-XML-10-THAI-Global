@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="choose_ask_type" />
+    <style name="switch_apps_entries" />
+    <style name="switch_apps_msg_confirms" />
+    <style name="switch_apps_title_confirms" />
+</resources>
