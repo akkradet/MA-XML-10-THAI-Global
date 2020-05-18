@@ -42,19 +42,19 @@
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>ทุกวัน</item>
-        <item>คืนในสัปดาห์</item>
+        <item>คืนวันธรรมดา</item>
         <item>วันหยุดสุดสัปดาห์</item>
         <item>กำหนดเอง</item>
     </string-array>
     <string-array name="alarm_repeat_type_no_workdays">
         <item>ทุกวัน</item>
-        <item>คืนในสัปดาห์</item>
+        <item>คืนวันธรรมดา</item>
         <item>วันหยุดสุดสัปดาห์</item>
         <item>กำหนดเอง</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>ปิดภาพเคลื่อนไหว</item>
-        <item>ภาพเคลื่อนไหวซูม .5x</item>
+        <item>ภาพเคลื่อนไหวซูม 0.5x</item>
         <item>ภาพเคลื่อนไหวซูม 1x</item>
         <item>ภาพเคลื่อนไหวซูม 1.5x</item>
         <item>ภาพเคลื่อนไหวซูม 2x</item>
@@ -230,6 +230,11 @@
         <item>ไม่เกิน 3 การดำเนินการ</item>
         <item>ไม่เกิน 4 การดำเนินการ</item>
     </string-array>
+    <string-array name="autofill_logging_level_entries">
+        <item>ปิด</item>
+        <item>แก้ไขข้อบกพร่อง</item>
+        <item>รายละเอียด</item>
+    </string-array>
     <string-array name="automatic_storage_management_days">
         <item>เกิน 30 วัน</item>
         <item>เกิน 60 วัน</item>
@@ -306,6 +311,30 @@
         <item>เพิ่มประสิทธิภาพคุณภาพการเชื่อมต่อ (330kbps/303kbps)</item>
         <item>ความพยายามที่ดีที่สุด (ปรับเปลี่ยนอัตราบิต)</item>
     </string-array>
+    <string-array name="bluetooth_a2dp_codec_lhdc_latency_summaries">
+        <item>ความหน่วงสั้น</item>
+        <item>ความหน่วงปานกลาง</item>
+        <item>ความหน่วงยาว</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_lhdc_latency_titles">
+        <item>ความหน่วงสั้น (50~100ms)</item>
+        <item>ความหน่วงปานกลาง (150~200ms)</item>
+        <item>ความหน่วงยาว (300~500ms)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_summaries">
+        <item>เพิ่มประสิทธิภาพสำหรับความหน่วงต่ำ</item>
+        <item>เพิ่มประสิทธิภาพคุณภาพการเชื่อมต่อ</item>
+        <item>สมดุลคุณภาพเสียงและการเชื่อมต่อ</item>
+        <item>เพิ่มประสิทธิภาพคุณภาพเสียง</item>
+        <item>ความพยายามที่ดีที่สุด (อัตราบิตอัตโนมัติ)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_titles">
+        <item>เพิ่มประสิทธิภาพสำหรับความหน่วงต่ำ (256kbps)</item>
+        <item>เพิ่มประสิทธิภาพคุณภาพการเชื่อมต่อ (400kbps)</item>
+        <item>คุณภาพเสียงและการเชื่อมต่อที่สมดุล (500/560kbps)</item>
+        <item>ปรับให้เหมาะสมสำหรับคุณภาพเสียง (900kbps)</item>
+        <item>ความพยายามที่ดีที่สุด (อัตราบิตอัตโนมัติ)</item>
+    </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
         <item>ใช้งานการเลือกระบบ (ค่าเริ่มต้น)</item>
         <item>44.1 kHz</item>
@@ -324,10 +353,14 @@
         <item>การตั้งค่าระบบที่ใช้ (ค่าเริ่มต้น)</item>
         <item>SBC</item>
         <item>AAC</item>
-        <item>Qualcomm® aptX™ เสียง</item>
-        <item>Qualcomm® aptX™ HD เสียง</item>
+        <item>เสียง Qualcomm® aptX™</item>
+        <item>เสียงQualcomm® aptX™ HD</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive เสียง</item>
+        <item>เสียง Qualcomm® aptX™ Adaptive</item>
+        <item>เสียง Qualcomm® aptX™ TWS+</item>
+        <item>LHDC_V3</item>
+        <item>LHDC_V2</item>
+        <item>LHDC_V1</item>
         <item>เปิดใช้งานตัวแปลงสัญญาณตัวเลือก</item>
         <item>ปิดใช้งานตัวแปลงสัญญาณตัวเลือก</item>
     </string-array>
@@ -335,10 +368,14 @@
         <item>การตั้งค่าระบบที่ใช้ (ค่าเริ่มต้น)</item>
         <item>SBC</item>
         <item>AAC</item>
-        <item>Qualcomm® aptX™ เสียง</item>
-        <item>Qualcomm® aptX™ HD เสียง</item>
+        <item>เสียง Qualcomm® aptX™</item>
+        <item>เสียง Qualcomm® aptX™ HD</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive เสียง</item>
+        <item>เสียง Qualcomm® aptX™ Adaptive</item>
+        <item>เสียงQualcomm® aptX™ TWS+</item>
+        <item>LHDC_V3</item>
+        <item>LHDC_V2</item>
+        <item>LHDC_V1</item>
         <item>เปิดใช้งานตัวแปลงสัญญาณตัวเลือก</item>
         <item>ปิดใช้งานตัวแปลงสัญญาณตัวเลือก</item>
     </string-array>
@@ -373,6 +410,13 @@
         <item>5 นาที</item>
         <item>1 ชั่วโมง</item>
         <item>ไม่มีระยะหมดเวลา</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>ปิดใช้อยู่</item>
+        <item>เปิดใช้งานตัวกรอง</item>
+        <item>เปิดใช้งาน</item>
+        <item>เปิดใช้งาน \"ตัวกรองส่วนหัว\"</item>
+        <item>เปิดใช้งาน \"ตัวกรองแพ็คเก็ตสื่อมีเดีย\"</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 วินาที</item>
@@ -421,6 +465,14 @@
         <item>แบบไม่เป็นทางการ</item>
         <item>คัดลายมือ</item>
         <item>อักษรตัวพิมพ์ใหญ่ขนาดเล็ก</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>เครือข่ายบ้านเท่านั้น</item>
+        <item>อัตโนมัติ</item>
     </string-array>
     <string-array name="change_security_lock_picker">
         <item>ปลดล็อกด้วยใบหน้า</item>
@@ -507,7 +559,7 @@
         <item>นิวยอร์ก</item>
         <item>บิวลาห์</item>
         <item>ซาเลม</item>
-        <item>ปานามาซิตี้</item>
+        <item>ปานามา</item>
         <item>ฟีนิกซ์</item>
         <item>พอร์ต-ออฟ-สเปน</item>
         <item>ปอร์โตแปรงซ์</item>
@@ -754,13 +806,30 @@
         <item>1</item>
     </string-array>
     <string-array name="dark_ui_mode_entries">
-        <item>อัตโนมัติ (อิงตามเวลาของวัน)</item>
-        <item>เปิดอยู่เสมอ</item>
-        <item>ปิดอยู่เสมอ</item>
+        <item>สีเข้ม</item>
+        <item>สีอ่อน</item>
     </string-array>
     <string-array name="data_usage_data_range">
         <item>30 วันที่ผ่านมา</item>
         <item>ตั้งรอบการใช้...</item>
+    </string-array>
+    <string-array name="date_of_app_all">
+        <item>"วันนี้ (ข้อมูลมือถือ) "</item>
+        <item>"เดือนนี้ (ข้อมูลมือถือ) "</item>
+        <item>"เดือนที่แล้ว (ข้อมูลมือถือ) "</item>
+        <item>"วันนี้ (Wi-Fi) "</item>
+        <item>"เดือนนี้ (Wi-Fi) "</item>
+        <item>"เดือนที่แล้ว (Wi-Fi) "</item>
+    </string-array>
+    <string-array name="date_of_traffic">
+        <item>"วันนี้ "</item>
+        <item>"เดือนนี้ "</item>
+        <item>"เดือนที่แล้ว "</item>
+    </string-array>
+    <string-array name="date_of_traffic_prefix">
+        <item>"วันนี้: "</item>
+        <item>"เดือนนี้: "</item>
+        <item>"เดือนที่แล้ว: "</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
         <item>ปิด</item>
@@ -776,17 +845,6 @@
         <item>5 นาที</item>
         <item>10 นาที</item>
         <item>30 นาที</item>
-    </string-array>
-    <string-array name="drip_battery_indicator_style_entries">
-        <item>กราฟิก</item>
-        <item>เปอร์เซ็นต์ (ในไอคอน)</item>
-        <item>เปอร์เซ็นต์ (ถัดจากไอคอน)</item>
-    </string-array>
-    <string-array name="eap_method_without_sim_auth">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>ไม่มี</item>
@@ -805,7 +863,7 @@
         <item>รีบูตเครื่องเพื่อใช้การตั้งค่าใหม่?</item>
     </string-array>
     <string-array name="fluency_mode_entries">
-        <item>ไม่ใช้ภาพเคลื่อนไหวระบบ</item>
+        <item>ซ่อนภาพเคลื่อนไหวระบบ</item>
         <item>แสดงภาพเคลื่อนไหวระบบ</item>
     </string-array>
     <string-array name="fluency_mode_summaries">
@@ -853,9 +911,9 @@
         <item>com.android.sim</item>
     </string-array>
     <string-array name="keyguard_notification_status_entries">
-        <item>ปลุกหน้าจอ</item>
-        <item>ภาพเคลื่อนไหวแบบช้า</item>
         <item>ไม่ต้องปลุกหน้าจอ</item>
+        <item>ปลุกหน้าจอ</item>
+        <item>แสดงภาพเคลื่อนไหว</item>
     </string-array>
     <string-array name="led_color_entries">
         <item>สีน้ำเงิน</item>
@@ -940,7 +998,7 @@
         <item>Windows XP และเวอร์ชั่นเก่ากว่า</item>
         <item>Windows Vista และเวอร์ชั่นใหม่กว่า</item>
         <item>OSX</item>
-        <item>ลีนุกซ์</item>
+        <item>Linux</item>
     </string-array>
     <string-array name="msd_pc_system_install_finish_summary">
         <item>@string/msd_pc_system_install_finish_summary_xp</item>
@@ -981,7 +1039,8 @@
     </string-array>
     <string-array name="notch_battery_indicator_style_entries">
         <item>กราฟิก</item>
-        <item>เปอร์เซ็นต์</item>
+        <item>เปอร์เซ็นต์ (ในไอคอน)</item>
+        <item>เปอร์เซ็นต์ (ถัดจากไอคอน)</item>
     </string-array>
     <string-array name="notification_shade_shortcut_entries">
         <item>ค้นหา</item>
@@ -1077,6 +1136,36 @@
         <item>อีเมล</item>
         <item>เล่นวิดีโอ</item>
     </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>ต้องการ GSM/WCDMA</item>
+        <item>GSM เท่านั้น</item>
+        <item>WCDMA เท่านั้น</item>
+        <item>GSM/WCDMA อัตโนมัติ</item>
+        <item>CDMA/EvDo อัตโนมัติ</item>
+        <item>CDMA ที่ไม่มี EvDo</item>
+        <item>EvDo เท่านั้น</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>ทั่วโลก</item>
+        <item>LTE</item>
+        <item>LTE/WCDMA</item>
+        <item>TDSCDMA เท่านั้น</item>
+        <item>TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA</item>
+        <item>TDSCDMA/GSM</item>
+        <item>LTE/TDSCDMA/GSM</item>
+        <item>TDSCDMA/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_world_mode">
+        <item>ทั่วโลก</item>
+        <item>LTE/CDMA</item>
+        <item>LTE/GSM/UMTS</item>
+    </string-array>
     <string-array name="priority_storage_entries">
         <item>พื้นที่จัดเก็บข้อมูลในเครื่อง</item>
         <item>ที่เก็บข้อมูลภายนอก</item>
@@ -1140,13 +1229,13 @@
         <item>แสดงเมนู</item>
     </string-array>
     <string-array name="screen_optimize_summary">
-        <item>ปรับความเปรียบต่างสูงสุดตามแสงแวดล้อม</item>
-        <item>เพิ่มความเปรียบต่างของหน้าจอ</item>
+        <item>ปรับสีตามแสงปัจจุบัน</item>
+        <item>เพิ่มสีสันเสมอ</item>
         <item>ความเปรียบต่างตั้งไว้คงที่</item>
     </string-array>
     <string-array name="screen_optimize_title">
-        <item>ปรับความเปรียบต่างอัตโนมัติ</item>
-        <item>เพิ่มความเปรียบต่าง</item>
+        <item>อัตโนมัติ (แนะนำ)</item>
+        <item>อิ่มสี</item>
         <item>มาตรฐาน</item>
     </string-array>
     <string-array name="screen_resolution_text">
@@ -1238,9 +1327,13 @@
         <item>อนุญาต</item>
         <item>ปฏิเสธ</item>
     </string-array>
+    <string-array name="swipe_direction_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
     <string-array name="time_format_entries">
-        <item>12ชั่วโมง 1:00 PM</item>
-        <item>24ชั่วโมง 13:00</item>
+        <item>12 ชั่วโมง 1:00 PM</item>
+        <item>24 ชั่วโมง 13:00</item>
         <item>อัตโนมัติ (ตามภาษาระบบ)</item>
     </string-array>
     <string-array name="timezone_filters">
@@ -1267,14 +1360,28 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+    <string-array name="traffic_type">
+        <item>"การใช้ข้อมูลมือถือ "</item>
+        <item>"การใช้ Wi-Fi "</item>
+    </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>ปิดภาพเคลื่อนไหว</item>
-        <item>ภาพเคลื่อนไหวซูม 5x</item>
+        <item>ภาพเคลื่อนไหวซูม 0.5x</item>
         <item>ภาพเคลื่อนไหวซูม 1x</item>
         <item>ภาพเคลื่อนไหวซูม 1.5x</item>
         <item>ภาพเคลื่อนไหวซูม 2x</item>
         <item>ภาพเคลื่อนไหวซูม 5x</item>
         <item>ภาพเคลื่อนไหวซูม 10x</item>
+    </string-array>
+    <string-array name="true_color_screen_optimize_summary">
+        <item>ปรับสีตามแสงปัจจุบัน</item>
+        <item>เพิ่มสีสันเสมอ</item>
+        <item>คืนค่าสีมาตรฐานของเนื้อหาบนหน้าจอด้วยการปรับเทียบสี</item>
+    </string-array>
+    <string-array name="true_color_screen_optimize_title">
+        <item>อัตโนมัติ (แนะนำ)</item>
+        <item>อิ่มสี</item>
+        <item>สีดั้งเดิม</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>ช้ามาก</item>
@@ -1312,8 +1419,8 @@
     </string-array>
     <string-array name="usb_configuration_titles">
         <item>กำลังชาร์จ</item>
-        <item>MTP (โอนไฟล์)</item>
-        <item>PTP (โอนรูปภาพโปรโตคอล)</item>
+        <item>MTP (โปรโตคอลถ่ายโอนสื่อ)</item>
+        <item>PTP (โปรโตคอลถ่ายโอนรูปภาพ)</item>
         <item>RNDIS (ต่อ USB)</item>
         <item>แหล่งที่มาของเสียง</item>
         <item>MIDI</item>
@@ -1327,13 +1434,17 @@
         <item>จากทุกคน</item>
         <item>จากผู้ติดต่อเท่านั้น</item>
         <item>จากผู้ติดต่อที่ติดดาวเท่านั้น</item>
-        <item>ไม่</item>
+        <item>ไม่มี</item>
     </string-array>
     <string-array name="vip_mode_value">
         <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
+    </string-array>
+    <string-array name="vpn_proxy_settings">
+        <item>ไม่มี</item>
+        <item>กำหนดเอง</item>
     </string-array>
     <string-array name="vpn_states">
         <item>ไม่ได้เชื่อมต่อ</item>
@@ -1352,10 +1463,10 @@
         <item>IPSec VPN พร้อมด้วยใบรับรองและการตรวจสอบสิทธิ์แบบผสม</item>
     </string-array>
     <string-array name="wfd_status">
-        <item>กำลังเชื่อมต่อ…</item>
-        <item>เชื่อมต่อแล้ว</item>
+        <item>กำลังเริ่มเซสชัน…</item>
+        <item>เริ่มเซสชันแล้ว</item>
         <item>กำลังปิดใช้บริการ…</item>
-        <item>เชื่อมต่อไม่ได้</item>
+        <item>เริ่มเซสชันไม่ได้</item>
         <item>ไม่มีการตอบสนองภายในเวลาที่ระบบกำหนด กำลังลองใหม่…</item>
         <item>เชื่อมต่ออุปกรณ์แล้ว</item>
     </string-array>
@@ -1371,14 +1482,14 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+    <string-array name="wide_notch_battery_indicator_style_entries">
+        <item>กราฟิก</item>
+        <item>เปอร์เซ็นต์ (ในไอคอน)</item>
+        <item>เปอร์เซ็นต์ (ถัดจากไอคอนในแถบแจ้งเตือน)</item>
+    </string-array>
     <string-array name="wifi_ap_security">
         <item>@string/wifi_security_none</item>
         <item>@string/wifi_security_wpa2</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices">
-        <item>ต้องการใช้ Wi-Fi</item>
-        <item>ต้องการใช้อินเทอร์เน็ตมือถือ</item>
-        <item>Wi-Fi เท่านั้น</item>
     </string-array>
     <string-array name="wifi_calling_mode_choices_v2">
         <item>Wi-Fi</item>
@@ -1388,19 +1499,6 @@
     <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
         <item>Wi-Fi</item>
         <item>อินเทอร์เน็ตมือถือ</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices_without_wifi_only">
-        <item>ต้องการใช้ Wi-Fi</item>
-        <item>ต้องการใช้อินเทอร์เน็ตมือถือ</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values">
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values_without_wifi_only">
-        <item>2</item>
-        <item>1</item>
     </string-array>
     <string-array name="wifi_connect_type_entries">
         <item>เชื่อมต่อโดยอัตโนมัติ</item>
@@ -1412,15 +1510,6 @@
         <item>TLS</item>
         <item>TTLS</item>
         <item>PWD</item>
-    </string-array>
-    <string-array name="wifi_eap_method">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
-        <item>SIM</item>
-        <item>AKA</item>
-        <item>"AKA'"</item>
     </string-array>
     <string-array name="wifi_hidden_entries">
         <item>ไม่</item>
@@ -1467,6 +1556,10 @@
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
+    <string-array name="wifi_privacy_entries">
+        <item>ใช้ที่อยู่ MAC แบบสุ่ม</item>
+        <item>ใช้ที่อยู่ MAC ของอุปกรณ์</item>
+    </string-array>
     <string-array name="wifi_proxy_settings">
         <item>ไม่มี</item>
         <item>ด้วยตนเอง</item>
@@ -1492,7 +1585,7 @@
         <item>เชื่อมต่อแล้ว</item>
         <item>ระงับแล้ว</item>
         <item>กำลังตัดการเชื่อมต่อ…</item>
-        <item>ตัดการเชื่อมต่อ</item>
+        <item>ตัดการเชื่อมต่อแล้ว</item>
         <item>ไม่สำเร็จ</item>
         <item>บล็อกแล้ว</item>
         <item>หลีกเลี่ยงการเชื่อมต่อที่ไม่ดี</item>
@@ -1511,13 +1604,9 @@
         <item>บล็อกแล้ว</item>
         <item>หลีกเลี่ยงการเชื่อมต่อที่ไม่ดี</item>
     </string-array>
-    <string-array name="wifi_tether_security_values">
-        <item>4</item>
-        <item>0</item>
-    </string-array>
     <string-array name="window_animation_scale_entries">
         <item>ปิดภาพเคลื่อนไหว</item>
-        <item>ภาพเคลื่อนไหวซูม 5x</item>
+        <item>ภาพเคลื่อนไหวซูม 0.5x</item>
         <item>ภาพเคลื่อนไหวซูม 1x</item>
         <item>ภาพเคลื่อนไหวซูม 1.5x</item>
         <item>ภาพเคลื่อนไหวซูม 2x</item>

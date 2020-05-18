@@ -12,6 +12,9 @@
     <plurals name="aqi_all_city_cur_num">
         <item quantity="other">ค่าเฉลี่ย %1$s ของสถานี</item>
     </plurals>
+    <plurals name="daily_forcast_drawer_on_home">
+        <item quantity="other">พยากรณ์ %1$s วัน</item>
+    </plurals>
     <plurals name="daily_forcast_drawer_on_top">
         <item quantity="other">พยากรณ์ %1$s วัน</item>
     </plurals>
@@ -26,6 +29,18 @@
     </plurals>
     <plurals name="total_voted_num_text">
         <item quantity="other">"&lt;font color='#20a7ff'>%1$s&lt;/font> คนโหวต"</item>
+    </plurals>
+    <plurals name="tts_report_temperature_high_centigrade">
+        <item quantity="other">อุณหภูมิสูงสุด: %1$s องศาเซลเซียส</item>
+    </plurals>
+    <plurals name="tts_report_temperature_high_fahrenheit">
+        <item quantity="other">อุณหภูมิสูงสุด: %1$s องศาฟาเรนไฮต์</item>
+    </plurals>
+    <plurals name="tts_report_temperature_low_centigrade">
+        <item quantity="other">อุณหภูมิต่ำสุด: %1$s องศาเซลเซียส</item>
+    </plurals>
+    <plurals name="tts_report_temperature_low_fahrenheit">
+        <item quantity="other">อุณหภูมิต่ำสุด: %1$s องศาฟาเรนไฮต์</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">แจ่มใส</item>

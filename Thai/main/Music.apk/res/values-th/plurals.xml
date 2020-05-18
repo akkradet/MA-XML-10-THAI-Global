@@ -35,6 +35,9 @@
     <plurals name="comment_count">
         <item quantity="other">%d ความคิดเห็น</item>
     </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%d วันที่แล้ว</item>
+    </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">ลบ %d รายการ?</item>
     </plurals>
@@ -83,6 +86,9 @@
     </plurals>
     <plurals name="songs_count">
         <item quantity="other">%d เพลง</item>
+    </plurals>
+    <plurals name="sound_fade_duration_in_seconds">
+        <item quantity="other">Crossfade ระหว่างเพลง: %d วินาที</item>
     </plurals>
     <plurals name="video_count">
         <item quantity="other">วิดีโอ</item>
